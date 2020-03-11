@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    // 是否登录
     isLogin: false
   },
   mutations: {

@@ -48,7 +48,7 @@ const routes = [
     name: "Login",
     component: Login,
     meta: {
-      title: "学员登录,环球网校"
+      title: "学员登录-环球网校"
     }
   },
   {
@@ -56,7 +56,7 @@ const routes = [
     name: "Register",
     component: Register,
     meta: {
-      title: "学员注册,环球网校"
+      title: "学员注册-环球网校"
     }
   },
   {

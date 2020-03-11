@@ -44,6 +44,7 @@
 
 <script>
 import Footer from "./components/Footer";
+import {mapState} from "vuex";
 export default {
   components: {
     Footer
@@ -53,6 +54,9 @@ export default {
       linkActive: 1,
       isLoginOrRegister: true
     };
+  },
+  computed: {
+    ...mapState(["isLogin"])
   },
   watch: {
     $route: function(newUrl, oldUrl) {
@@ -69,6 +73,9 @@ export default {
           this.linkActive = 3;
           break;
         case "LearningCenter":
+          if (!this.isLogin) {
+            this.$router.push("/login");
+          }
           this.linkActive = 4;
           break;
         default:
