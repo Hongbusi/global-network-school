@@ -10,8 +10,7 @@ import Coupon from "../views/Coupon.vue";
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
+const routes = [{
     path: '/',
     name: 'Home',
     component: Home,
@@ -33,7 +32,24 @@ const routes = [
     component: Download,
     meta: {
       title: "环球网校移动应用APP下载"
-    }
+    },
+    children: [{
+        path: "/download/app/",
+        name: "Phone",
+        component: () => import("../components/Phone-app.vue"),
+        meta: {
+          title: "环球网校移动应用APP下载"
+        },
+      },
+      {
+        path: "/download/app/pc",
+        name: "Pc",
+        component: () => import("../components/Pc-app.vue"),
+        meta: {
+          title: "环球网校离线课堂"
+        },
+      }
+    ]
   },
   {
     path: "/learning/center",

@@ -70,6 +70,8 @@ export default {
           this.linkActive = 2;
           break;
         case "Download":
+        case "Phone":
+        case "Pc":
           this.linkActive = 3;
           break;
         case "LearningCenter":
