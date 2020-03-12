@@ -27,6 +27,22 @@ const routes = [{
     }
   },
   {
+    path: "/no",
+    name: "No",
+    component: () => import("../views/No.vue"),
+    meta: {
+      title: "功能暂未开通--环球网校"
+    }
+  },
+  {
+    path: "/search",
+    name: "Search",
+    component: () => import("../views/Search.vue"),
+    meta: {
+      title: "搜索"
+    }
+  },
+  {
     path: "/download/app",
     name: "Download",
     component: Download,

@@ -11,7 +11,9 @@
 export default {
   methods: {
     // 点击切换微信登录
-    clickWechat() {}
+    clickWechat() {
+      this.$router.push("/no");
+    }
   }
 };
 </script>

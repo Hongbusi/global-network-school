@@ -20,7 +20,6 @@
 
 <style scoped>
 .download {
-  background-color: #f8f8f8;
   padding-bottom: 25px;
   overflow: hidden;
 }

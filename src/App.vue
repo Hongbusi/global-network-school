@@ -16,7 +16,7 @@
         <!-- 搜索框 -->
         <div class="header-search left">
           <input type="text" class="search-input" placeholder="搜索考试名称、老师名称或课程名称" />
-          <span class="search-btn"></span>
+          <span class="search-btn" @click="goToSearch"></span>
         </div>
         <!-- 学习中心 -->
         <router-link class="header-link header-center left" :class="linkActive == 4 ? 'header-link-active' : ''" to="/learning/center">学习中心</router-link>
@@ -57,6 +57,11 @@ export default {
   },
   computed: {
     ...mapState(["isLogin"])
+  },
+  methods: {
+    goToSearch() {
+      this.$router.push("/search");
+    }
   },
   watch: {
     $route: function(newUrl, oldUrl) {

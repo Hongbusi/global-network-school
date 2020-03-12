@@ -1,0 +1,366 @@
+{
+    "classify": [
+        "一级建造师",
+        "一级消防工程师",
+        "BIM",
+        "一级建筑师",
+        "二级建造师",
+        "一级造价工程师",
+        "二级造价工程师",
+        "监理工程师",
+        "中级注册安全工程师",
+        "环境影响评价师",
+        "中级经济师",
+        "初级会计职称",
+        "教师资格",
+        "中级会计职称",
+        "软考中级职称",
+        "软考高级职称",
+        "证券从业资格",
+        "会计实训",
+        "自学考试",
+        "临床执业医师",
+        "导游证",
+        "执业药师",
+        "银行从业资格",
+        "高级经济师",
+        "期货从业资格",
+        "平面设计",
+        "MBA面授",
+        "中医执业医师",
+        "三级人力资源师",
+        "剑桥PET/KET英文水平考试",
+        "健康管理师"
+    ],
+    "liveing": [
+        {
+            "isEnd": true,
+            "tag": "一级消防工程师",
+            "txt": "选课小助手",
+            "teacher": "贴心助教"
+        },
+        {
+            "isEnd": true,
+            "tag": "初级会计职称",
+            "txt": "选课小助手",
+            "teacher": "贴心助教"
+        },
+        {
+            "isEnd": true,
+            "tag": "中级会计职称",
+            "txt": "选课小助手",
+            "teacher": "贴心助教"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        },
+        {
+            "isEnd": false,
+            "tag": "平面设计",
+            "txt": "二次元效果，打造新海诚风漫画效果",
+            "teacher": "布拉德老师"
+        },
+        {
+            "isEnd": false,
+            "tag": "执业药师",
+            "txt": "中医学专业知识一",
+            "teacher": "肖琴"
+        }
+    ],
+    "classifyLive": [
+        {
+            "title": "中级经济师",
+            "content": [
+                {
+                    "title": "【人力证书】专项政策解读",
+                    "tag": "人力",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/1b7dc739cf5b2b61f840e358418c6ebf694248af.jpg",
+                    "teacherName": "付子健",
+                    "count": "1173",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "选课小助手",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "已结束",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b64a9363a93dab7bff49465c7ecb0505af99c51b.jpg",
+                    "teacherName": "贴心助教",
+                    "count": "93",
+                    "btn": "直播已结束"
+                },
+                {
+                    "title": "1v1预习课：第4部分统计（一）",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/d6880bf6ec97ef60c0e06418a98bd9f1514869e3.png",
+                    "teacherName": "孙梦娇",
+                    "count": "1036",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "2019经济基础考试总结",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月13日 10:00-11:00",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b29266486c9d705a55c782f0ca5ff2ebaa94eb76.png",
+                    "teacherName": "刘艳霞",
+                    "count": "572",
+                    "btn": "立即预约"
+                }
+            ]
+        },
+        {
+            "title": "初级会计职称",
+            "content": [
+                {
+                    "title": "选课小助手",
+                    "tag": "经济法",
+                    "price": "免费",
+                    "time": "已结束",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b64a9363a93dab7bff49465c7ecb0505af99c51b.jpg",
+                    "teacherName": "贴心助教",
+                    "count": "61",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "习题强化-存货2(回放)",
+                    "tag": "实务",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/11f58b15fb3a7d9cf96d798e0436f3b416e7983d.jpg",
+                    "teacherName": "李娟",
+                    "count": "813",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "母题提分-增值税消费税法律制度4（回放）",
+                    "tag": "经济法",
+                    "price": "免费",
+                    "time": "03月13日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/5c2ff779f8b4adbde57dc6f721a52d635c84107e.png",
+                    "teacherName": "小志",
+                    "count": "679",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "证书宅急送",
+                    "tag": "经济法",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b64a9363a93dab7bff49465c7ecb0505af99c51b.jpg",
+                    "teacherName": "贴心助教",
+                    "count": "388",
+                    "btn": "立即预约"
+                }
+            ]
+        },
+        {
+            "title": "中级经济师",
+            "content": [
+                {
+                    "title": "【人力证书】专项政策解读",
+                    "tag": "人力",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/1b7dc739cf5b2b61f840e358418c6ebf694248af.jpg",
+                    "teacherName": "付子健",
+                    "count": "1173",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "选课小助手",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "已结束",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b64a9363a93dab7bff49465c7ecb0505af99c51b.jpg",
+                    "teacherName": "贴心助教",
+                    "count": "93",
+                    "btn": "直播已结束"
+                },
+                {
+                    "title": "1v1预习课：第4部分统计（一）",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/d6880bf6ec97ef60c0e06418a98bd9f1514869e3.png",
+                    "teacherName": "孙梦娇",
+                    "count": "1036",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "2019经济基础考试总结",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月13日 10:00-11:00",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b29266486c9d705a55c782f0ca5ff2ebaa94eb76.png",
+                    "teacherName": "刘艳霞",
+                    "count": "572",
+                    "btn": "立即预约"
+                }
+            ]
+        },
+        {
+            "title": "中级经济师",
+            "content": [
+                {
+                    "title": "【人力证书】专项政策解读",
+                    "tag": "人力",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/1b7dc739cf5b2b61f840e358418c6ebf694248af.jpg",
+                    "teacherName": "付子健",
+                    "count": "1173",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "选课小助手",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "已结束",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b64a9363a93dab7bff49465c7ecb0505af99c51b.jpg",
+                    "teacherName": "贴心助教",
+                    "count": "93",
+                    "btn": "直播已结束"
+                },
+                {
+                    "title": "1v1预习课：第4部分统计（一）",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/d6880bf6ec97ef60c0e06418a98bd9f1514869e3.png",
+                    "teacherName": "孙梦娇",
+                    "count": "1036",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "2019经济基础考试总结",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月13日 10:00-11:00",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b29266486c9d705a55c782f0ca5ff2ebaa94eb76.png",
+                    "teacherName": "刘艳霞",
+                    "count": "572",
+                    "btn": "立即预约"
+                }
+            ]
+        },
+        {
+            "title": "中级经济师",
+            "content": [
+                {
+                    "title": "【人力证书】专项政策解读",
+                    "tag": "人力",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/1b7dc739cf5b2b61f840e358418c6ebf694248af.jpg",
+                    "teacherName": "付子健",
+                    "count": "1173",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "选课小助手",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "已结束",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b64a9363a93dab7bff49465c7ecb0505af99c51b.jpg",
+                    "teacherName": "贴心助教",
+                    "count": "93",
+                    "btn": "直播已结束"
+                },
+                {
+                    "title": "1v1预习课：第4部分统计（一）",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月18日 19:30-20:30",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/d6880bf6ec97ef60c0e06418a98bd9f1514869e3.png",
+                    "teacherName": "孙梦娇",
+                    "count": "1036",
+                    "btn": "立即预约"
+                },
+                {
+                    "title": "2019经济基础考试总结",
+                    "tag": "经济基础",
+                    "price": "免费",
+                    "time": "03月13日 10:00-11:00",
+                    "teacherHref": "http://edu24ol.bs2cdn.100.com/b29266486c9d705a55c782f0ca5ff2ebaa94eb76.png",
+                    "teacherName": "刘艳霞",
+                    "count": "572",
+                    "btn": "立即预约"
+                }
+            ]
+        }
+    ]
+}

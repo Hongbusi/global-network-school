@@ -34,11 +34,11 @@ a {
     float: right;
 }
 
-.b {
-    border: 1px solid red;
-}
-
 .w1000 {
     width: 1000px;
     margin: 0 auto;
+}
+
+body {
+    background-color: #f8f8f8;
 }
