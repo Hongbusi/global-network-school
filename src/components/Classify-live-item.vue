@@ -14,10 +14,7 @@
             <span class="icon_time4">{{content.time}}</span>
           </p>
           <p class="teacher-block clearfix">
-            <img
-              :src="content.teacherHref"
-              class="teacher-face"
-            />
+            <img :src="content.teacherHref" class="teacher-face" />
             <span class="eui f14 teacher-name">{{content.teacherName}}</span>
           </p>
         </div>
@@ -37,12 +34,12 @@ export default {
   props: {
     content: {
       type: Object,
-      default: function () {
-        return {}
+      default: function() {
+        return {};
       }
     }
   }
-}
+};
 </script>
 
 <style scoped>
@@ -52,6 +49,13 @@ export default {
   user-select: none;
   float: left;
   margin-bottom: 20px;
+  position: relative;
+  transition: top .5s;
+}
+
+.classify-live-item:hover {
+  box-shadow: 2px 0 10px 3px rgb(241, 239, 239);
+  top: -5px;
 }
 
 .card-wrap {
