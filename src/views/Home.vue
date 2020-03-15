@@ -44,6 +44,17 @@
         </router-link>
       </div>
     </div>
+
+    <div class="home2 w1180">
+      <span>
+        选择意向考试
+        <i></i>
+      </span>
+    </div>
+
+    <Hometeacher :teacherList="homeData.teacher"></Hometeacher>
+
+    <Course v-for="(item, index) in homeData.course" :key="index" :course="item"></Course>
   </div>
 </template>
 
@@ -51,10 +62,15 @@
 import axios from "axios";
 import HomeLive from "../components/Home/Home-live.vue";
 import ClassifySlideshow from "../components/Home/Classify-Slideshow.vue";
+import Hometeacher from "../components/Home/Home-teacher.vue";
+import Course from "../components/Home/Course.vue";
+
 export default {
   components: {
     HomeLive,
-    ClassifySlideshow
+    ClassifySlideshow,
+    Hometeacher,
+    Course
   },
   data() {
     return {
@@ -70,6 +86,9 @@ export default {
 </script>
 
 <style scoped>
+.home {
+  background-color: #f5f7f9;
+}
 .home1 {
   margin-bottom: 20px;
 }
@@ -169,5 +188,37 @@ export default {
 
 .h:hover {
   box-shadow: 0 0 10px 5px rgb(221, 217, 217);
+}
+
+.home2 {
+  height: 52px;
+  border-bottom: 1px solid #efeff0;
+  color: #9598a2;
+  text-align: center;
+  line-height: 32px;
+}
+
+.home2 span {
+  cursor: pointer;
+  color: #9598a2;
+  text-align: center;
+  line-height: 32px;
+}
+
+.home2 span i {
+  font-style: normal;
+  background-image: url("../assets/home/sprite.png");
+  background-position: -180px -126px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: -2px;
+}
+.home2 span:hover {
+  color: rgb(100, 156, 240);
+}
+
+.home2 span:hover i {
+  background-position: -180px -100px;
 }
 </style>

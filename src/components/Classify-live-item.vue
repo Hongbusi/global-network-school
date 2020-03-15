@@ -50,12 +50,12 @@ export default {
   float: left;
   margin-bottom: 20px;
   position: relative;
-  transition: top .5s;
+  transition: all 0.5s;
 }
 
 .classify-live-item:hover {
   box-shadow: 2px 0 10px 3px rgb(241, 239, 239);
-  top: -5px;
+  transform: translateY(-10px);
 }
 
 .card-wrap {

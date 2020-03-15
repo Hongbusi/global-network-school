@@ -481,5 +481,364 @@
                 }
             ]
         }
+    ],
+    "teacher": [
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/杨菠-1536062781712.jpg",
+            "name": "杨菠",
+            "tag": "中级会计职称"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-黄明峰-1536137196837.jpg",
+            "name": "黄明峰",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-孟川-1536137177790.jpg",
+            "name": "孟川",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一建-肖国祥-1536137193150.jpg",
+            "name": "肖国祥",
+            "tag": "一级建造师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/dcc5c67b87667e70deb69ba232ff4f5f83d3438a.jpg",
+            "name": "槐俊升",
+            "tag": "中级经济师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/f604faaf875eb4a7252557a332fc8cbe63ee386c.jpg",
+            "name": "李娟",
+            "tag": "初级会计职称/中级会计职称"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/杨菠-1536062781712.jpg",
+            "name": "杨菠",
+            "tag": "中级会计职称"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-黄明峰-1536137196837.jpg",
+            "name": "黄明峰",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-孟川-1536137177790.jpg",
+            "name": "孟川",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一建-肖国祥-1536137193150.jpg",
+            "name": "肖国祥",
+            "tag": "一级建造师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/dcc5c67b87667e70deb69ba232ff4f5f83d3438a.jpg",
+            "name": "槐俊升",
+            "tag": "中级经济师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/杨菠-1536062781712.jpg",
+            "name": "杨菠",
+            "tag": "中级会计职称"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-黄明峰-1536137196837.jpg",
+            "name": "黄明峰",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-孟川-1536137177790.jpg",
+            "name": "孟川",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一建-肖国祥-1536137193150.jpg",
+            "name": "肖国祥",
+            "tag": "一级建造师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/dcc5c67b87667e70deb69ba232ff4f5f83d3438a.jpg",
+            "name": "槐俊升",
+            "tag": "中级经济师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/杨菠-1536062781712.jpg",
+            "name": "杨菠",
+            "tag": "中级会计职称"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-黄明峰-1536137196837.jpg",
+            "name": "黄明峰",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-孟川-1536137177790.jpg",
+            "name": "孟川",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一建-肖国祥-1536137193150.jpg",
+            "name": "肖国祥",
+            "tag": "一级建造师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/dcc5c67b87667e70deb69ba232ff4f5f83d3438a.jpg",
+            "name": "槐俊升",
+            "tag": "中级经济师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/杨菠-1536062781712.jpg",
+            "name": "杨菠",
+            "tag": "中级会计职称"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-黄明峰-1536137196837.jpg",
+            "name": "黄明峰",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-孟川-1536137177790.jpg",
+            "name": "孟川",
+            "tag": "一级消防工程师"
+        },
+        {
+            "picUrl": "http://edu24ol.bs2cdn.100.com/一级消防-孟川-1536137177790.jpg",
+            "name": "孟川",
+            "tag": "一级消防工程师"
+        }
+    ],
+    "course": [
+        {
+            "title": "建筑工程",
+            "tags": [
+                "一级建造师",
+                "二级建造师",
+                "二级造价工程师",
+                "一级消防工程师",
+                "中级注册安全工程师",
+                "BIM",
+                "一级建筑师",
+                "监理工程师"
+            ],
+            "content": [
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-1584235120647.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580-326-1580533093084.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580_326-1583832765831.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-(1)-1574752134221.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580x326-1584086584847.jpg"
+                },
+                {
+                    "picUrl": "http://s.hqwx.com/statics/home/mall/images/default/banner0.jpg?v=20200313.1401"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E4%B8%80%E7%BA%A7%E5%BB%BA%E7%AD%91%E5%B8%88-1569133257876.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E7%9B%91%E7%90%86-1568976504591.png"
+                }
+            ]
+        },
+        {
+            "title": "财会经济",
+            "tags": [
+                "中级经济师",
+                "初级经济师",
+                "初级会计职称",
+                "中级会计职称",
+                "高级会计职称",
+                "会计实训",
+                "注册会计师"
+            ],
+            "content": [
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-1584235120647.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580-326-1580533093084.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580_326-1583832765831.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-(1)-1574752134221.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580x326-1584086584847.jpg"
+                },
+                {
+                    "picUrl": "http://s.hqwx.com/statics/home/mall/images/default/banner0.jpg?v=20200313.1401"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E4%B8%80%E7%BA%A7%E5%BB%BA%E7%AD%91%E5%B8%88-1569133257876.png"
+                }
+            ]
+        },
+        {
+            "title": "建筑工程",
+            "tags": [
+                "一级建造师",
+                "二级建造师",
+                "二级造价工程师",
+                "一级消防工程师",
+                "中级注册安全工程师",
+                "BIM",
+                "一级建筑师",
+                "监理工程师"
+            ],
+            "content": [
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-1584235120647.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580-326-1580533093084.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580_326-1583832765831.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-(1)-1574752134221.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580x326-1584086584847.jpg"
+                },
+                {
+                    "picUrl": "http://s.hqwx.com/statics/home/mall/images/default/banner0.jpg?v=20200313.1401"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E4%B8%80%E7%BA%A7%E5%BB%BA%E7%AD%91%E5%B8%88-1569133257876.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E7%9B%91%E7%90%86-1568976504591.png"
+                }
+            ]
+        },
+        {
+            "title": "建筑工程",
+            "tags": [
+                "一级建造师",
+                "二级建造师",
+                "二级造价工程师",
+                "一级消防工程师",
+                "中级注册安全工程师",
+                "BIM",
+                "一级建筑师",
+                "监理工程师"
+            ],
+            "content": [
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-1584235120647.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580-326-1580533093084.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580_326-1583832765831.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-(1)-1574752134221.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580x326-1584086584847.jpg"
+                },
+                {
+                    "picUrl": "http://s.hqwx.com/statics/home/mall/images/default/banner0.jpg?v=20200313.1401"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E4%B8%80%E7%BA%A7%E5%BB%BA%E7%AD%91%E5%B8%88-1569133257876.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E7%9B%91%E7%90%86-1568976504591.png"
+                }
+            ]
+        },
+        {
+            "title": "建筑工程",
+            "tags": [
+                "一级建造师",
+                "二级建造师",
+                "二级造价工程师",
+                "一级消防工程师",
+                "中级注册安全工程师",
+                "BIM",
+                "一级建筑师",
+                "监理工程师"
+            ],
+            "content": [
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-1584235120647.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580-326-1580533093084.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580_326-1583832765831.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-(1)-1574752134221.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580x326-1584086584847.jpg"
+                },
+                {
+                    "picUrl": "http://s.hqwx.com/statics/home/mall/images/default/banner0.jpg?v=20200313.1401"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E4%B8%80%E7%BA%A7%E5%BB%BA%E7%AD%91%E5%B8%88-1569133257876.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E7%9B%91%E7%90%86-1568976504591.png"
+                }
+            ]
+        },
+        {
+            "title": "建筑工程",
+            "tags": [
+                "一级建造师",
+                "二级建造师",
+                "二级造价工程师",
+                "一级消防工程师",
+                "中级注册安全工程师",
+                "BIM",
+                "一级建筑师",
+                "监理工程师"
+            ],
+            "content": [
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-1584235120647.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580-326-1580533093084.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580_326-1583832765831.jpg"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E5%B9%BF%E5%91%8A%E5%9B%BE-(1)-1574752134221.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/580x326-1584086584847.jpg"
+                },
+                {
+                    "picUrl": "http://s.hqwx.com/statics/home/mall/images/default/banner0.jpg?v=20200313.1401"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E4%B8%80%E7%BA%A7%E5%BB%BA%E7%AD%91%E5%B8%88-1569133257876.png"
+                },
+                {
+                    "picUrl": "http://edu24ol.bs2cdn.100.com/%E7%9B%91%E7%90%86-1568976504591.png"
+                }
+            ]
+        }
     ]
 }
