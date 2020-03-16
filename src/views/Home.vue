@@ -46,7 +46,7 @@
     </div>
 
     <div class="home2 w1180">
-      <span>
+      <span @click="setIsShow(true)">
         选择意向考试
         <i></i>
       </span>
@@ -55,8 +55,21 @@
     <Hometeacher :teacherList="homeData.teacher"></Hometeacher>
 
     <Course v-for="(item, index) in homeData.course" :key="index" :course="item"></Course>
+
+    <!-- 战略合作伙伴 -->
+    <Partner></Partner>
+
+    <!-- 学习卡销售点 -->
+    <FooterLearning></FooterLearning>
+
+    <RightBar></RightBar>
+
+    <!-- 意向考试 -->
+    <div class="shade" v-show="isShow"></div>
+    <Examchoose v-show="isShow" :isShowdiv="isShow"></Examchoose>
   </div>
 </template>
+
 
 <script>
 import axios from "axios";
@@ -64,13 +77,25 @@ import HomeLive from "../components/Home/Home-live.vue";
 import ClassifySlideshow from "../components/Home/Classify-Slideshow.vue";
 import Hometeacher from "../components/Home/Home-teacher.vue";
 import Course from "../components/Home/Course.vue";
+import Partner from "../components/Home/Partner.vue";
+import FooterLearning from "../components/Home/Footer-learning.vue";
+import RightBar from "../components/Home/Right-bar.vue";
+import Examchoose from "../components/Home/Examchoose.vue";
+import {mapState, mapMutations} from "vuex";
 
 export default {
   components: {
     HomeLive,
     ClassifySlideshow,
     Hometeacher,
-    Course
+    Course,
+    Partner,
+    FooterLearning,
+    RightBar,
+    Examchoose
+  },
+  methods: {
+    ...mapMutations(["setIsShow"])
   },
   data() {
     return {
@@ -81,6 +106,10 @@ export default {
     axios.get("/homeData.json").then(res => {
       this.homeData = res.data;
     });
+    this.setIsShow(true);
+  },
+  computed: {
+    ...mapState(["isShow"])
   }
 };
 </script>
@@ -220,5 +249,16 @@ export default {
 
 .home2 span:hover i {
   background-position: -180px -100px;
+}
+
+.shade {
+  background: #000;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }
 </style>
