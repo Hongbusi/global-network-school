@@ -69,6 +69,9 @@ export default {
   mounted() {
     // 给window添加scroll事件监听
     window.addEventListener("scroll", this.handleScroll, true);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll, true);
   }
 };
 </script>
