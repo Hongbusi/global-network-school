@@ -24,7 +24,11 @@
               </form>
               <ul class="login-ul">
                 <li>
-                  <label for="autologin" :class="isChecked ? 'checked' : 'nochecked'" @click="clickRadio"></label>
+                  <label
+                    for="autologin"
+                    :class="isChecked ? 'checked' : 'nochecked'"
+                    @click="clickRadio"
+                  ></label>
                   <input type="radio" name="autologin" checked ref="checkRadio" />
                   自动登录
                 </li>
@@ -35,7 +39,13 @@
             </div>
             <div v-else>
               <div class="phone">
-                <input type="text" v-model="phoneNum" @blur="blurInput" @focus="focusInput" placeholder="请输入手机号码" />
+                <input
+                  type="text"
+                  v-model="phoneNum"
+                  @blur="blurInput"
+                  @focus="focusInput"
+                  placeholder="请输入手机号码"
+                />
                 <div class="err" v-show="isError">
                   <img src="../assets/register/err.png" />
                   <span>手机号格式错误，请重新输入</span>
@@ -48,7 +58,11 @@
               <div class="login-submit">登录</div>
               <p class="articleinfo">
                 提示：未注册环球网校账号的手机号，登录时将自动注册，且代表您已同意
-              <a href="http://www.hqwx.com/help/article.htm" target="_blank">《网站注册协议》</a></p>
+                <a
+                  href="http://www.hqwx.com/help/article.htm"
+                  target="_blank"
+                >《网站注册协议》</a>
+              </p>
               <Wechat></Wechat>
             </div>
           </div>
@@ -73,25 +87,21 @@ export default {
       isActive: true,
       // 是否自动登录
       isChecked: true,
-      phoneNum: '',
+      phoneNum: "",
       isError: false
     };
   },
   methods: {
     // 点击切换自动登录否
-    clickRadio () {
+    clickRadio() {
       this.isChecked = !this.isChecked;
       this.$refs.checkRadio.checked = this.isChecked;
     },
     // 忘记密码
-    clickForgetPassword() {
-
-    },
+    clickForgetPassword() {},
     // 登录
-    clickSubmit() {
-
-    },
-    // 输入框失去焦点 
+    clickSubmit() {},
+    // 输入框失去焦点
     blurInput() {
       let reg = /^1[3-9]\d{9}$/;
       if (!reg.test(this.phoneNum)) {
@@ -104,9 +114,17 @@ export default {
       this.isError = false;
     },
     // 点击获取验证码
-    clickGetInfo() {
-    
-    }
+    clickGetInfo() {}
+  },
+  // // 组件内的守卫
+  beforeRouteEnter(to, from, next) {
+    next(vm => {
+      vm.$store.commit("setIsLoginOrRegister", false);
+    });
+  },
+  beforeRouteLeave(to, from, next) {
+    this.$store.commit("setIsLoginOrRegister", true);
+    next();
   }
 };
 </script>
@@ -177,7 +195,7 @@ export default {
 .login-ul li:nth-child(1) label {
   display: inline-block;
   width: 15px;
-  height: 15px;  
+  height: 15px;
   position: relative;
   top: 3px;
 }

@@ -67,7 +67,12 @@ export default {
     axios.get("/zhibo-classify.json").then(res => {
       this.zhiboData = res.data;
     });
-  }
+  },
+  beforeRouteEnter (to, from, next) {
+    next(vm => {
+      vm.$store.commit("setLinkActive", 2);
+    });
+  },
 };
 </script>
 

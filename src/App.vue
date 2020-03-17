@@ -8,18 +8,34 @@
         <!-- gif -->
         <router-link class="header-gif left" to="/coupon"></router-link>
         <!-- 首页 -->
-        <router-link class="header-link left" :class="linkActive == 1 ? 'header-link-active' : ''" to="/">首页</router-link>
+        <router-link
+          class="header-link left"
+          :class="linkActive == 1 ? 'header-link-active' : ''"
+          to="/"
+        >首页</router-link>
         <!-- 直播 -->
-        <router-link class="header-link left" :class="linkActive == 2 ? 'header-link-active' : ''" to="/zhibo">直播</router-link>
+        <router-link
+          class="header-link left"
+          :class="linkActive == 2 ? 'header-link-active' : ''"
+          to="/zhibo"
+        >直播</router-link>
         <!-- App -->
-        <router-link class="header-link left" :class="linkActive == 3 ? 'header-link-active' : ''" to="/download/app">App</router-link>
+        <router-link
+          class="header-link left"
+          :class="linkActive == 3 ? 'header-link-active' : ''"
+          to="/download/app"
+        >App</router-link>
         <!-- 搜索框 -->
         <div class="header-search left">
           <input type="text" class="search-input" placeholder="搜索考试名称、老师名称或课程名称" />
           <span class="search-btn" @click="goToSearch"></span>
         </div>
         <!-- 学习中心 -->
-        <router-link class="header-link header-center left" :class="linkActive == 4 ? 'header-link-active' : ''" to="/learning/center">学习中心</router-link>
+        <router-link
+          class="header-link header-center left"
+          :class="linkActive == 4 ? 'header-link-active' : ''"
+          to="/learning/center"
+        >学习中心</router-link>
         <!-- 登录注册优惠卷 -->
         <div class="header-unlogin">
           <router-link class="header-unlogin-link header-unlogin-link1" to="/login">登录</router-link>
@@ -35,7 +51,7 @@
     </div>
 
     <!-- 内容区域 -->
-    <router-view />
+    <router-view></router-view>
 
     <!-- footer -->
     <Footer></Footer>
@@ -44,19 +60,16 @@
 
 <script>
 import Footer from "./components/Footer";
-import {mapState} from "vuex";
+import { mapState } from "vuex";
 export default {
   components: {
     Footer
   },
   data() {
-    return {
-      linkActive: 1,
-      isLoginOrRegister: true
-    };
+    return {};
   },
   computed: {
-    ...mapState(["isLogin"])
+    ...mapState(["isLogin", "isLoginOrRegister", "linkActive"])
   },
   methods: {
     goToSearch() {
@@ -64,31 +77,28 @@ export default {
     }
   },
   watch: {
-    $route: function(newUrl, oldUrl) {
-      if (newUrl.name == "Login" || newUrl.name == "Register") {
-          this.isLoginOrRegister = false;
-      } else {
-          this.isLoginOrRegister = true;
-      }
-      switch (newUrl.name) {
+    $route(to, from) {
+      let index;
+      switch (to.name) {
         case "Zhibo":
-          this.linkActive = 2;
+          index = 2;
           break;
         case "Download":
         case "Phone":
         case "Pc":
-          this.linkActive = 3;
+          index = 3;
           break;
         case "LearningCenter":
           if (!this.isLogin) {
             this.$router.push("/login");
           }
-          this.linkActive = 4;
+          index = 4;
           break;
         default:
-          this.linkActive = 1;
+          index = 1;
           break;
       }
+      this.$store.commit("setLinkActive", index);
     }
   }
 };

@@ -79,6 +79,16 @@ export default {
       //     content: "暂未开通"
       // });
     }
+  },
+    // // 组件内的守卫
+  beforeRouteEnter(to, from, next) {
+    next(vm => {
+      vm.$store.commit("setIsLoginOrRegister", false);
+    });
+  },
+  beforeRouteLeave(to, from, next) {
+    this.$store.commit("setIsLoginOrRegister", true);
+    next();
   }
 };
 </script>
