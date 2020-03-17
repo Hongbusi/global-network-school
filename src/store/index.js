@@ -9,7 +9,8 @@ export default new Vuex.Store({
     isLogin: false,
     isShow: false,
     isLoginOrRegister: true,
-    linkActive: 1
+    linkActive: 1,
+    once: true
   },
   mutations: {
     setIsShow(state, value) {
@@ -20,6 +21,9 @@ export default new Vuex.Store({
     },
     setLinkActive(state, value) {
       state.linkActive = value;
+    },
+    setOnce(state, value) {
+      state.once = value;
     }
   },
   actions: {},

@@ -160,6 +160,7 @@ export default {
   margin-right: -580px;
   background-image: url("../../assets/home/sprite.png");
   background-position: -50px -50px;
+  border-radius: 50%;
 }
 
 .content-btn:hover {

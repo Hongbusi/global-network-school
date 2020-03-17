@@ -393,7 +393,7 @@
     <p class="choosemore">
       <span>点击查看更多考试 &gt;</span>
     </p>
-    <a href="javascript:;" @click="setIsShow(false)" :class="isOk && 'active'">选好了</a>
+    <a href="javascript:;" @click="isOk && setIsShow(false)" :class="isOk && 'active'">选好了</a>
   </div>
 </template>
 

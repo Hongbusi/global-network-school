@@ -81,7 +81,7 @@ import Partner from "../components/Home/Partner.vue";
 import FooterLearning from "../components/Home/Footer-learning.vue";
 import RightBar from "../components/Home/Right-bar.vue";
 import Examchoose from "../components/Home/Examchoose.vue";
-import {mapState, mapMutations} from "vuex";
+import { mapState, mapMutations } from "vuex";
 
 export default {
   components: {
@@ -95,7 +95,7 @@ export default {
     Examchoose
   },
   methods: {
-    ...mapMutations(["setIsShow"])
+    ...mapMutations(["setIsShow", "setOnce"])
   },
   data() {
     return {
@@ -106,10 +106,13 @@ export default {
     axios.get("/homeData.json").then(res => {
       this.homeData = res.data;
     });
-    this.setIsShow(true);
+    if (this.once) {
+      this.setIsShow(true);
+      this.setOnce(false);
+    }
   },
   computed: {
-    ...mapState(["isShow"])
+    ...mapState(["isShow", "once"])
   }
 };
 </script>
